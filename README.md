@@ -1,4 +1,7 @@
 # Fix UB500 driver problem (Bluetooth 5 devices) on Linux
+
+### Forked from [rogovskyyy/linux-ub500](https://github.com/rogovskyyy/linux-ub500)
+
 ## Before you start - make sure you're missing UB500 driver.
 ```bash
 lsusb; dmesg | egrep -i 'blue|firm'
